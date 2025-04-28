@@ -257,6 +257,7 @@ GEM
     fast_sqlite (0.0.1)
       sqlite3
     ffi (1.17.2-x64-mingw-ucrt)
+    ffi (1.17.2-x86_64-linux-gnu)
     flickwerk (0.3.5)
       railties (>= 7.0)
     font-awesome-rails (4.7.0.9)
@@ -367,6 +368,8 @@ GEM
       net-protocol
     nio4r (2.7.4)
     nokogiri (1.18.8-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
     octokit (7.2.0)
       faraday (>= 1, < 3)
@@ -547,6 +550,7 @@ GEM
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     sqlite3 (2.6.0-x64-mingw-ucrt)
+    sqlite3 (2.6.0-x86_64-linux-gnu)
     state_machines (0.6.0)
     state_machines-activemodel (0.9.0)
       activemodel (>= 6.0)
@@ -563,6 +567,7 @@ GEM
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 3.0)
     tailwindcss-ruby (3.4.17-x64-mingw-ucrt)
+    tailwindcss-ruby (3.4.17-x86_64-linux)
     teaspoon (1.4.0)
       railties (>= 5.0)
     teaspoon-mocha (2.3.3)
@@ -606,6 +611,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   axe-core-capybara (~> 4.8)
